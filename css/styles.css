@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
+<<<<<<< HEAD
 :root {
     --background: rgba(0, 214, 170, .85);
 }
 
+=======
+>>>>>>> 222b255 (updated files)
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 body {
+<<<<<<< HEAD
     margin: 0;
     background: #222;
     font-family: 'Poppins', sans-serif;
@@ -37,6 +41,50 @@ header {
 
 .nav-toggle {
     display: none;
+=======
+    margin: auto;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background: white;
+}
+
+h1 {
+    font-weight: 650;
+    font-size: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+figure {
+    overflow: none;
+    max-width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    background-color: #a2e6e8;
+    text-align: center;
+    position: fixed;
+    /*z-index: 999; */
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    max-width: 50%;
+    height: auto;
+    text-align: left;
+}
+.nav-toggle {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+.nav-toggle:focus ~ .nav-toggle-label {
+    outline: 3px solid rgba(black, .75);
+>>>>>>> 222b255 (updated files)
 }
 
 .nav-toggle-label {
@@ -53,7 +101,11 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
+<<<<<<< HEAD
     background: white;
+=======
+    background: black;
+>>>>>>> 222b255 (updated files)
     height: 2px;
     width: 2em;
     border-radius: 2px;
@@ -79,14 +131,34 @@ nav {
     text-align: left;
     top: 100%;
     left: 0;
+<<<<<<< HEAD
     background: var(--background);
+=======
+    background: #a2e6e8;
+>>>>>>> 222b255 (updated files)
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
+<<<<<<< HEAD
 }
 
 
+=======
+  
+  
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+*/
+}
+
+
+
+>>>>>>> 222b255 (updated files)
 nav ul {
     margin: 0;
     padding: 0;
@@ -95,6 +167,7 @@ nav ul {
 
 nav li {
     margin-bottom: 1em;
+<<<<<<< HEAD
     margin-left: 1em:
 }
 
@@ -103,6 +176,15 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     text-transform: uppercase;
+=======
+    margin-left: 1em;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+>>>>>>> 222b255 (updated files)
     opacity: 0;
     transition: opacity 150ms ease-in-out;
 }
@@ -112,7 +194,11 @@ nav a:hover {
 }
 
 .nav-toggle:checked ~ nav {
+<<<<<<< HEAD
     transform: scale(1, 1)
+=======
+    transform: scale(1,1);
+>>>>>>> 222b255 (updated files)
 }
 
 .nav-toggle:checked ~ nav a {
@@ -120,6 +206,10 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 222b255 (updated files)
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
@@ -127,6 +217,7 @@ nav a:hover {
 
     header {
         display: grid;
+<<<<<<< HEAD
         grid-template-columns: 1fr auto minmax(600px, 3fr);
     }
 
@@ -137,6 +228,29 @@ nav a:hover {
     nav {
         all: unset;
         grid-column: 3 / 4;
+=======
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
+
+    .logo {
+        grid-column: 1 / 2; 
+        max-width: 50%;
+        height: auto;
+        text-align: left;
+        }
+
+
+    nav {
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1,1);
+        background: none;
+        top: initial;
+        left: initial;
+
+        grid-column: 3;
+>>>>>>> 222b255 (updated files)
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -144,7 +258,15 @@ nav a:hover {
 
     nav ul {
         display: flex;
+<<<<<<< HEAD
         justify-content: flex-end;
+=======
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+>>>>>>> 222b255 (updated files)
     }
 
     nav a {
@@ -165,6 +287,7 @@ nav a:hover {
         transition: transform ease-in-out 250ms;
     }
 
+<<<<<<< HEAD
 nav a:hover::before {
     transform: scale(1,1);
 }
@@ -176,3 +299,51 @@ nav a:hover::before {
     }
 }
     
+=======
+    nav a:hover::before {
+        transform: scale(1,1);
+    }
+
+    h1 {
+        font-weight: 650;
+        font-size: 45px;
+    }
+}
+/* .nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: 2em;
+}
+
+.nav-item a, a:visited {
+    color: black;
+}
+*/
+
+main {
+    margin-top: 150px;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+.main-content {
+    margin-left: 30px;
+}
+>>>>>>> 222b255 (updated files)
