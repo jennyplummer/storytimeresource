@@ -208,6 +208,10 @@ nav a:hover {
         font-weight: 650;
         font-size: 45px;
     }
+
+    .accordion {
+        display: none;
+    }
 }
 /* .nav-links {
     display: flex;
@@ -245,4 +249,29 @@ h1 {
 
 .main-content {
     margin-left: 30px;
+}
+
+.accordion {
+    background-color: #a2e6e8;
+    color: #444;
+    cursor: pointer;
+    margin: 10px;
+    padding: 18px;
+    width: 90%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #5ce1e6;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    width: 90%;
+    display: none;
+    overflow: hidden;
 }
