@@ -197,7 +197,6 @@ main img {
     border: none;
     border-radius: 12px;
     outline: none;
-    overflow: hidden;
     transition: 0.4s;
 }
 
@@ -207,7 +206,7 @@ main img {
 
 .panel {
     background-color: #ebd6d7;
-    width: 90%;
+    padding: 0 18px;
     display: none;
     overflow: hidden;
 }
