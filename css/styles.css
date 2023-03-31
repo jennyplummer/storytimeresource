@@ -25,14 +25,14 @@ h2 {
 }
 
 figure {
-    overflow: none;
+    overflow: hidden;
     max-width: 100%;
     height: auto;
     margin: auto;
     }
 
 #main-image {
-    overflow: none;
+    overflow: hidden;
     max-width: 75%;
     height: auto;
     margin: auto;
@@ -78,7 +78,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background: #d85072;
+    background: #ebd6d7;
     height: 2px;
     width: 2em;
     border-radius: 2px;
@@ -169,7 +169,6 @@ main {
 
 .booklist-box {
     width: 45%;
-    
     margin: auto;
     align-self: stretch;
 }
@@ -198,7 +197,7 @@ main img {
     border: none;
     border-radius: 12px;
     outline: none;
-    overflow: none;
+    overflow: hidden;
     transition: 0.4s;
 }
 
@@ -207,15 +206,63 @@ main img {
 }
 
 .panel {
-    padding: 0 18px;
-    background-color: #a1abd7;
+    background-color: #ebd6d7;
     width: 90%;
     display: none;
     overflow: hidden;
 }
 
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #392a50;
+    height: auto;
+    width: 100vw;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.footer-bottom {
+    background: #393b8c;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
 @media screen and (min-width: 770px) {
    
+    body {
+        font-size: 1em;
+    }
+
     main {
         padding-top: 15%;
     }
