@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-weight: 650;
+    font-weight: 700;
     font-size: 20px;
     margin: auto;
     height: auto;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 650;
+    font-weight: 7000;
     font-size: 18px;
 }
 
@@ -211,7 +211,7 @@ footer {
     background: #392a50;
     height: auto;
     width: 100vw;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
 }
 
@@ -227,13 +227,13 @@ footer {
     font-size: 2rem;
     font-weight: 500;
     text-transform: capitalize;
-    line-height: 2rem;
+    line-height: 0.5rem;
 }
 
 .footer-content p {
     max-width: 500px;
-    margin: 10px auto;
-    line-height: 20px;
+    margin: 5px auto;
+    line-height: 0.5rem;
     font-size: 14px;
     text-transform: capitalize;
     color: #fff;
